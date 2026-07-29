@@ -1,0 +1,11 @@
+{
+  "name": "adco-estimate-tracker-api",
+  "version": "1.0.0",
+  "description": "API for ADCO Estimate Tracker - stores projects as JSON blobs in Azure Blob Storage",
+  "main": "src/functions/*.js",
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "@azure/functions": "^4.5.0",
+    "@azure/storage-blob": "^12.24.0"
+  }
+}
